@@ -75,6 +75,11 @@ Configure OpenCode settings using JSON or Markdown files for project-specific or
 
 **Use when:** Setting up OpenCode configuration, understanding precedence, creating custom modes/agents, verifying configuration details.
 
+#### best-practice-guide
+Analyze project documentation to identify missing context, then generate and store best practice guides using web search when available.
+
+**Use when:** Starting work on new projects with incomplete documentation, identifying knowledge gaps, creating reusable best practice assets, preparing comprehensive project onboarding.
+
 ### Testing Ecosystem
 
 #### Basic Test Types
@@ -161,6 +166,7 @@ Configure OpenCode settings using JSON or Markdown files for project-specific or
 | assumption-testing | Test implicit assumptions | [skills/assumption-testing/](./skills/assumption-testing/) | [references/README.md](./skills/assumption-testing/references/README.md) |
 | reality-validation | Validate against real-world | [skills/reality-validation/](./skills/reality-validation/) | [references/README.md](./skills/reality-validation/references/README.md) |
 | opencode-config | Configure OpenCode settings | [skills/opencode-config/](./skills/opencode-config/) | [references/README.md](./skills/opencode-config/references/README.md) |
+| best-practice-guide | Analyze project docs to identify gaps and generate best practice guides | [skills/best-practice-guide/](./skills/best-practice-guide/) | [references/README.md](./skills/best-practice-guide/references/README.md) |
 | devils-advocate | Challenge ideas as devil's advocate | [skills/devils-advocate/](./skills/devils-advocate/) | [references/README.md](./skills/devils-advocate/references/README.md) |
 | assumption-buster | Aggressively disprove assumptions | [skills/assumption-buster/](./skills/assumption-buster/) | [references/README.md](./skills/assumption-buster/references/README.md) |
 | redteam | Think like attacker for security testing | [skills/redteam/](./skills/redteam/) | [references/README.md](./skills/redteam/references/README.md) |

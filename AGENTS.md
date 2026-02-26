@@ -212,7 +212,7 @@ echo '{"status": "success", "data": "..."}'
 
 ## Available Skills
 
-This repository contains 39 skills organized into several categories:
+This repository contains 40 skills organized into several categories:
 
 ### Core Skills
 - **git-release**: Create consistent releases and changelogs from merged PRs
@@ -222,6 +222,7 @@ This repository contains 39 skills organized into several categories:
 - **hypercognitive-skill-compiler**: Transform complex skill requirements using exhaustive hypercognitive compiler thinking patterns
 - **index**: Maintain directory organization with index files and consistency prompts
 - **opencode-config**: Configure OpenCode settings using JSON or Markdown files for project-specific or global preferences
+- **best-practice-guide**: Analyze project documentation to identify missing context, then generate and store best practice guides using web search when available
 
 ### Testing Ecosystem (27 skills)
 #### Basic Test Types
