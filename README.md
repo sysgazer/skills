@@ -70,6 +70,11 @@ Maintain directory organization with index files (_index.md/_index.yaml/_index.j
 
 **Use when:** Setting up project structure, maintaining directory documentation, ensuring file consistency, reducing context switching.
 
+#### opencode-config
+Configure OpenCode settings using JSON or Markdown files for project-specific or global preferences.
+
+**Use when:** Setting up OpenCode configuration, understanding precedence, creating custom modes/agents, verifying configuration details.
+
 ### Testing Ecosystem
 
 #### Basic Test Types
@@ -111,6 +116,13 @@ Maintain directory organization with index files (_index.md/_index.yaml/_index.j
 - **assumption-testing**: Identify, document, and explicitly test assumptions rather than leaving them implicit and untested
 - **reality-validation**: Compare system behavior against real-world expectations and domain knowledge rather than just technical specifications
 
+#### Adversarial Thinking
+- **devils-advocate**: Challenge ideas, assumptions, and decisions by playing devil's advocate to identify weaknesses and prevent groupthink
+- **assumption-buster**: Aggressively challenge and attempt to disprove assumptions through counterexamples, edge cases, and adversarial thinking
+- **redteam**: Think and act like an attacker to identify security vulnerabilities, weaknesses, and penetration vectors through adversarial security testing
+- **white-hat**: Build defensive security capabilities, implement security by design, and practice ethical hacking to protect systems proactively
+- **adversarial-thinking**: Apply systematic adversarial thinking patterns including devil's advocate, assumption busting, red teaming, and white hat security approaches
+
 ## Skill Reference
 
 | Skill | Description | Directory | Documentation |
@@ -148,6 +160,12 @@ Maintain directory organization with index files (_index.md/_index.yaml/_index.j
 | trust-but-verify | Verify claims skeptically | [skills/trust-but-verify/](./skills/trust-but-verify/) | [references/README.md](./skills/trust-but-verify/references/README.md) |
 | assumption-testing | Test implicit assumptions | [skills/assumption-testing/](./skills/assumption-testing/) | [references/README.md](./skills/assumption-testing/references/README.md) |
 | reality-validation | Validate against real-world | [skills/reality-validation/](./skills/reality-validation/) | [references/README.md](./skills/reality-validation/references/README.md) |
+| opencode-config | Configure OpenCode settings | [skills/opencode-config/](./skills/opencode-config/) | [references/README.md](./skills/opencode-config/references/README.md) |
+| devils-advocate | Challenge ideas as devil's advocate | [skills/devils-advocate/](./skills/devils-advocate/) | [references/README.md](./skills/devils-advocate/references/README.md) |
+| assumption-buster | Aggressively disprove assumptions | [skills/assumption-buster/](./skills/assumption-buster/) | [references/README.md](./skills/assumption-buster/references/README.md) |
+| redteam | Think like attacker for security testing | [skills/redteam/](./skills/redteam/) | [references/README.md](./skills/redteam/references/README.md) |
+| white-hat | Build defensive security capabilities | [skills/white-hat/](./skills/white-hat/) | [references/README.md](./skills/white-hat/references/README.md) |
+| adversarial-thinking | Apply systematic adversarial thinking | [skills/adversarial-thinking/](./skills/adversarial-thinking/) | [references/README.md](./skills/adversarial-thinking/references/README.md) |
 
 ## Local Development
 

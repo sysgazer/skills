@@ -212,7 +212,7 @@ echo '{"status": "success", "data": "..."}'
 
 ## Available Skills
 
-This repository contains 33 skills organized into several categories:
+This repository contains 39 skills organized into several categories:
 
 ### Core Skills
 - **git-release**: Create consistent releases and changelogs from merged PRs
@@ -221,6 +221,7 @@ This repository contains 33 skills organized into several categories:
 - **skill-builder**: Build basic to intermediate Agent Skills using structured templates
 - **hypercognitive-skill-compiler**: Transform complex skill requirements using exhaustive hypercognitive compiler thinking patterns
 - **index**: Maintain directory organization with index files and consistency prompts
+- **opencode-config**: Configure OpenCode settings using JSON or Markdown files for project-specific or global preferences
 
 ### Testing Ecosystem (27 skills)
 #### Basic Test Types
@@ -261,6 +262,13 @@ This repository contains 33 skills organized into several categories:
 - **trust-but-verify**: Verify system claims and test results through independent validation
 - **assumption-testing**: Identify, document, and explicitly test implicit assumptions
 - **reality-validation**: Compare system behavior against real-world expectations
+
+#### Adversarial Thinking
+- **devils-advocate**: Challenge ideas, assumptions, and decisions by playing devil's advocate
+- **assumption-buster**: Aggressively challenge and attempt to disprove assumptions
+- **redteam**: Think and act like an attacker to identify security vulnerabilities
+- **white-hat**: Build defensive security capabilities and implement security by design
+- **adversarial-thinking**: Apply systematic adversarial thinking patterns including all above approaches
 
 ## Installation
 
