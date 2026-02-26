@@ -65,6 +65,11 @@ Transform complex skill requirements into complete Agent Skills using exhaustive
 
 **Use when:** Building production-ready, complex skills with rigorous quality gates, error handling, and comprehensive validation.
 
+#### index
+Maintain directory organization with index files (_index.md/_index.yaml/_index.json) and consistency prompts (_prompt.md).
+
+**Use when:** Setting up project structure, maintaining directory documentation, ensuring file consistency, reducing context switching.
+
 ### Testing Ecosystem
 
 #### Basic Test Types
@@ -115,6 +120,7 @@ Transform complex skill requirements into complete Agent Skills using exhaustive
 | vercel-deploy | Deploy applications to Vercel | [skills/vercel-deploy/](./skills/vercel-deploy/) | [references/README.md](./skills/vercel-deploy/references/README.md) |
 | skill-builder | Build basic to intermediate Agent Skills | [skills/skill-builder/](./skills/skill-builder/) | [references/README.md](./skills/skill-builder/references/README.md) |
 | hypercognitive-skill-compiler | Transform complex skill requirements | [skills/hypercognitive-skill-compiler/](./skills/hypercognitive-skill-compiler/) | [references/README.md](./skills/hypercognitive-skill-compiler/references/README.md) |
+| index | Maintain directory organization with index files | [skills/index/](./skills/index/) | [references/README.md](./skills/index/references/README.md) |
 | testing-unit | Run unit tests for individual components | [skills/testing-unit/](./skills/testing-unit/) | [references/README.md](./skills/testing-unit/references/README.md) |
 | testing-integration | Run integration tests | [skills/testing-integration/](./skills/testing-integration/) | [references/README.md](./skills/testing-integration/references/README.md) |
 | testing-e2e | Run end-to-end tests | [skills/testing-e2e/](./skills/testing-e2e/) | [references/README.md](./skills/testing-e2e/references/README.md) |

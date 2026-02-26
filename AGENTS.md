@@ -212,7 +212,7 @@ echo '{"status": "success", "data": "..."}'
 
 ## Available Skills
 
-This repository contains 32 skills organized into several categories:
+This repository contains 33 skills organized into several categories:
 
 ### Core Skills
 - **git-release**: Create consistent releases and changelogs from merged PRs
@@ -220,6 +220,7 @@ This repository contains 32 skills organized into several categories:
 - **vercel-deploy**: Deploy applications to Vercel with automatic framework detection
 - **skill-builder**: Build basic to intermediate Agent Skills using structured templates
 - **hypercognitive-skill-compiler**: Transform complex skill requirements using exhaustive hypercognitive compiler thinking patterns
+- **index**: Maintain directory organization with index files and consistency prompts
 
 ### Testing Ecosystem (27 skills)
 #### Basic Test Types
