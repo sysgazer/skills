@@ -212,30 +212,54 @@ echo '{"status": "success", "data": "..."}'
 
 ## Available Skills
 
-### git-release
-Create consistent releases and changelogs from merged PRs.
+This repository contains 32 skills organized into several categories:
 
-**Use when:** Preparing a tagged release, generating release notes, proposing version bumps.
+### Core Skills
+- **git-release**: Create consistent releases and changelogs from merged PRs
+- **react-review**: Review React components for best practices and performance issues
+- **vercel-deploy**: Deploy applications to Vercel with automatic framework detection
+- **skill-builder**: Build basic to intermediate Agent Skills using structured templates
+- **hypercognitive-skill-compiler**: Transform complex skill requirements using exhaustive hypercognitive compiler thinking patterns
 
-### react-review
-Review React components for best practices and performance issues.
+### Testing Ecosystem (27 skills)
+#### Basic Test Types
+- **testing-unit**: Run unit tests for individual code components
+- **testing-integration**: Run integration tests for component interactions
+- **testing-e2e**: Run end-to-end tests for complete user workflows
+- **testing-api**: Test API endpoints and contracts
+- **testing-performance**: Test application performance and load handling
+- **testing-security**: Test application security vulnerabilities
+- **testing-accessibility**: Test application accessibility compliance
 
-**Use when:** Reviewing React component code, optimizing performance, checking best practices.
+#### Specialized Test Types
+- **testing-regression**: Run regression tests to ensure changes don't break existing functionality
+- **testing-smoke**: Run smoke tests to verify basic application functionality
+- **testing-compatibility**: Test application compatibility across browsers, devices, platforms
+- **testing-usability**: Test application usability and user experience
+- **testing-database**: Test database interactions, schemas, and data integrity
+- **testing-chaos**: Run chaos engineering tests to build resilient systems
 
-### vercel-deploy
-Deploy applications to Vercel with automatic framework detection.
+#### Test Coordination & Management
+- **test-orchestrator**: Orchestrate and coordinate different test types in proper order
+- **test-dependency-mapper**: Map dependencies and relationships between test types
+- **test-planning**: Create comprehensive test plans considering all test types
+- **test-coverage**: Measure and report test coverage across all test types
+- **testing-ecosystem**: Understand complete testing ecosystem and relationships
 
-**Use when:** Deploying web applications, setting up hosting, testing deployment configuration.
+#### Testing Level Strategies
+- **testing-level-poc**: Testing strategy for Proof of Concept projects
+- **testing-level-mvp**: Testing strategy for Minimum Viable Product
+- **testing-level-production**: Testing strategy for production deployment
+- **testing-level-selector**: Select appropriate testing level based on project stage
 
-### skill-builder
-Build basic to intermediate Agent Skills using structured templates and validation tools.
+#### Test Suites
+- **testing-functional-suite**: Run comprehensive functional test suite
+- **testing-nonfunctional-suite**: Run comprehensive non-functional test suite
 
-**Use when:** Creating simple to moderately complex skills, validating skill structure, analyzing requirements.
-
-### hypercognitive-skill-compiler
-Transform complex skill requirements into complete Agent Skills using exhaustive hypercognitive compiler thinking patterns.
-
-**Use when:** Building production-ready, complex skills with rigorous quality gates, error handling, and comprehensive validation.
+#### Skeptical Verification
+- **trust-but-verify**: Verify system claims and test results through independent validation
+- **assumption-testing**: Identify, document, and explicitly test implicit assumptions
+- **reality-validation**: Compare system behavior against real-world expectations
 
 ## Installation
 
