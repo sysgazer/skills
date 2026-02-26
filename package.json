@@ -1,0 +1,31 @@
+{
+  "name": "@lexykwaii/skills",
+  "version": "0.1.0",
+  "description": "Personal collection of AI agent skills",
+  "repository": "git@github.com:lexykwaii/skills.git",
+  "author": "lexykwaii",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "opencode",
+    "claude-code",
+    "cursor",
+    "ai-agents"
+  ],
+  "scripts": {
+    "setup-symlinks": "bash scripts/setup-symlinks.sh",
+    "validate": "bash scripts/validate-all.sh",
+    "validate-skill": "bash scripts/validate-skill.sh",
+    "create-skill": "bash scripts/create-skill.sh"
+  },
+  "files": [
+    "skills/",
+    ".opencode/",
+    "scripts/",
+    "README.md",
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "TEMPLATE.md",
+    "LICENSE"
+  ]
+}
