@@ -80,6 +80,109 @@ Analyze project documentation to identify missing context, then generate and sto
 
 **Use when:** Starting work on new projects with incomplete documentation, identifying knowledge gaps, creating reusable best practice assets, preparing comprehensive project onboarding.
 
+#### workflow-orchestrator
+Build and orchestrate AI-driven development workflows (Ralph loops) that iterate until success using configurable patterns and multi-agent coordination.
+
+**Use when:** Building complex features requiring multiple AI agent passes, implementing automated development workflows with verification steps, coordinating parallel AI agents for different aspects of a task, creating self-correcting loops that iterate until success criteria met.
+
+### Logging & Observability
+
+#### logging-fundamentals
+Implement proper logging practices including log levels, structured logging, context propagation, and logging best practices for applications and systems.
+
+**Use when:** Setting up logging for new applications or services, reviewing existing logging implementations, establishing logging standards, debugging issues with incomplete or poor logging.
+
+#### log-management-system
+Implement comprehensive log management including rotation, retention, forwarding, aggregation, storage, and lifecycle management for scalable observability.
+
+**Use when:** Designing log management infrastructure, implementing log rotation and retention policies, setting up log forwarding to centralized systems, planning log storage strategies.
+
+#### log-analysis-parsing
+Parse, analyze, search, and extract insights from logs using various techniques including regex, parsing engines, and log analysis tools.
+
+**Use when:** Need to extract specific information from unstructured log files, building log parsing pipelines, searching through large volumes of logs for patterns or errors.
+
+#### distributed-tracing-logs
+Implement distributed tracing using logs, including trace context propagation, span logging, correlation IDs, and OpenTelemetry integration for observability.
+
+**Use when:** Building or maintaining distributed systems (microservices, serverless), need to trace requests across multiple service boundaries, debugging issues spanning multiple components.
+
+#### logging-performance-optimization
+Optimize logging performance including overhead reduction, async logging, buffering, sampling, and performance impact analysis for high-throughput systems.
+
+**Use when:** Logging overhead is impacting application performance, building high-throughput systems where logging cost matters, optimizing latency-sensitive applications.
+
+#### observability-logging
+Use logs as part of comprehensive observability strategy including metrics, traces, alerts, and dashboards for system understanding and operational excellence.
+
+**Use when:** Building comprehensive observability platforms, integrating logs with metrics and tracing for full observability, designing alerting and monitoring systems based on log patterns.
+
+### Development Tools
+
+#### dependency-upgrade
+Comprehensive dependency analysis with breaking change detection and impact analysis.
+
+**Use when:** Analyzing dependency upgrades, detecting breaking changes, planning migration strategies, assessing upgrade impact.
+
+#### code-migration
+Framework/library migration with incremental strategies and automated tools.
+
+**Use when:** Migrating between frameworks or libraries, planning incremental migrations, analyzing breaking changes, implementing migration tools.
+
+### Performance Optimization
+
+#### performance-profiling
+Linux kernel-level (perf, eBPF, ftrace) and application-level profiling.
+
+**Use when:** Profiling system performance, identifying bottlenecks, optimizing application performance, analyzing kernel-level performance issues.
+
+### Security & Compliance
+
+#### security-scan
+Comprehensive security scanning across applications, infrastructure, and dependencies with LLM-based analysis.
+
+**Use when:** Conducting security audits, scanning for vulnerabilities, mapping to compliance frameworks, implementing security controls.
+
+### Documentation
+
+#### api-documentation
+Generate comprehensive API documentation for REST/HTTP, gRPC, GraphQL, and RPC APIs.
+
+**Use when:** Documenting APIs, generating interactive documentation, ensuring consistency between implementation and documentation.
+
+### Cloud Management
+
+#### cloud-cost-optimization
+Analyze and optimize cloud costs across multiple cloud providers (AWS, Azure, GCP).
+
+**Use when:** Analyzing cloud spending, identifying cost savings opportunities, optimizing resource utilization, implementing FinOps practices.
+
+### Data Management
+
+#### data-validation
+Validate data quality, types, schemas, and consistency across systems.
+
+**Use when:** Ensuring data quality, validating data schemas, detecting data anomalies, implementing data validation rules.
+
+### Database Optimization
+
+#### database-optimization
+Optimize database performance, schema design, indexing, and query performance across different database systems.
+
+**Use when:** Optimizing database performance, analyzing query performance, tuning database configuration, optimizing indexes.
+
+### Operations
+
+#### accessibility-audit
+Comprehensive accessibility auditing including WCAG compliance, legal requirements mapping, and user testing with disabilities.
+
+**Use when:** Conducting accessibility audits, ensuring WCAG compliance, mapping to legal requirements, testing with assistive technologies.
+
+#### incident-response
+Manage incidents and conduct post-mortem analysis to improve system reliability and security.
+
+**Use when:** Managing incidents, conducting post-mortem analysis, improving incident response processes, tracking incident metrics.
+
 ### Testing Ecosystem
 
 #### Basic Test Types
@@ -115,6 +218,11 @@ Analyze project documentation to identify missing context, then generate and sto
 #### Test Suites
 - **testing-functional-suite**: Run comprehensive functional test suite
 - **testing-nonfunctional-suite**: Run comprehensive non-functional test suite
+
+#### Gap Analysis
+- **gap-analysis**: Identify discrepancies between documentation and implementation through systematic analysis
+- **spec-gap-analysis**: Analyze gaps between specifications (OpenAPI, Protobuf, GraphQL) and actual implementation
+- **test-gap-analysis**: Analyze gaps between requirements/features that should be tested and actual test coverage
 
 #### Skeptical Verification
 - **trust-but-verify**: Verify system claims and test results through independent validation rather than trusting assumptions
@@ -162,6 +270,9 @@ Analyze project documentation to identify missing context, then generate and sto
 | testing-level-selector | Select testing level based on project | [skills/testing-level-selector/](./skills/testing-level-selector/) | [references/README.md](./skills/testing-level-selector/references/README.md) |
 | testing-functional-suite | Run functional test suite | [skills/testing-functional-suite/](./skills/testing-functional-suite/) | [references/README.md](./skills/testing-functional-suite/references/README.md) |
 | testing-nonfunctional-suite | Run non-functional test suite | [skills/testing-nonfunctional-suite/](./skills/testing-nonfunctional-suite/) | [references/README.md](./skills/testing-nonfunctional-suite/references/README.md) |
+| gap-analysis | Identify discrepancies between documentation and implementation | [skills/gap-analysis/](./skills/gap-analysis/) | [references/README.md](./skills/gap-analysis/references/README.md) |
+| spec-gap-analysis | Analyze gaps between specifications and actual implementation | [skills/spec-gap-analysis/](./skills/spec-gap-analysis/) | [references/README.md](./skills/spec-gap-analysis/references/README.md) |
+| test-gap-analysis | Analyze gaps between requirements/features and actual test coverage | [skills/test-gap-analysis/](./skills/test-gap-analysis/) | [references/README.md](./skills/test-gap-analysis/references/README.md) |
 | trust-but-verify | Verify claims skeptically | [skills/trust-but-verify/](./skills/trust-but-verify/) | [references/README.md](./skills/trust-but-verify/references/README.md) |
 | assumption-testing | Test implicit assumptions | [skills/assumption-testing/](./skills/assumption-testing/) | [references/README.md](./skills/assumption-testing/references/README.md) |
 | reality-validation | Validate against real-world | [skills/reality-validation/](./skills/reality-validation/) | [references/README.md](./skills/reality-validation/references/README.md) |
@@ -172,6 +283,16 @@ Analyze project documentation to identify missing context, then generate and sto
 | redteam | Think like attacker for security testing | [skills/redteam/](./skills/redteam/) | [references/README.md](./skills/redteam/references/README.md) |
 | white-hat | Build defensive security capabilities | [skills/white-hat/](./skills/white-hat/) | [references/README.md](./skills/white-hat/references/README.md) |
 | adversarial-thinking | Apply systematic adversarial thinking | [skills/adversarial-thinking/](./skills/adversarial-thinking/) | [references/README.md](./skills/adversarial-thinking/references/README.md) |
+| dependency-upgrade | Comprehensive dependency analysis with breaking change detection and impact analysis | [skills/dependency-upgrade/](./skills/dependency-upgrade/) | [references/README.md](./skills/dependency-upgrade/references/README.md) |
+| performance-profiling | Linux kernel-level (perf, eBPF, ftrace) and application-level profiling | [skills/performance-profiling/](./skills/performance-profiling/) | [references/README.md](./skills/performance-profiling/references/README.md) |
+| code-migration | Framework/library migration with incremental strategies and automated tools | [skills/code-migration/](./skills/code-migration/) | [references/README.md](./skills/code-migration/references/README.md) |
+| security-scan | Comprehensive security scanning across applications, infrastructure, and dependencies with LLM-based analysis | [skills/security-scan/](./skills/security-scan/) | [references/README.md](./skills/security-scan/references/README.md) |
+| api-documentation | Generate comprehensive API documentation for REST/HTTP, gRPC, GraphQL, and RPC APIs | [skills/api-documentation/](./skills/api-documentation/) | [references/README.md](./skills/api-documentation/references/README.md) |
+| cloud-cost-optimization | Analyze and optimize cloud costs across multiple cloud providers (AWS, Azure, GCP) | [skills/cloud-cost-optimization/](./skills/cloud-cost-optimization/) | [references/README.md](./skills/cloud-cost-optimization/references/README.md) |
+| data-validation | Validate data quality, types, schemas, and consistency across systems | [skills/data-validation/](./skills/data-validation/) | [references/README.md](./skills/data-validation/references/README.md) |
+| accessibility-audit | Comprehensive accessibility auditing including WCAG compliance, legal requirements mapping, and user testing with disabilities | [skills/accessibility-audit/](./skills/accessibility-audit/) | [references/README.md](./skills/accessibility-audit/references/README.md) |
+| database-optimization | Optimize database performance, schema design, indexing, and query performance across different database systems | [skills/database-optimization/](./skills/database-optimization/) | [references/README.md](./skills/database-optimization/references/README.md) |
+| incident-response | Manage incidents and conduct post-mortem analysis to improve system reliability and security | [skills/incident-response/](./skills/incident-response/) | [references/README.md](./skills/incident-response/references/README.md) |
 
 ## Local Development
 

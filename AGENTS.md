@@ -212,7 +212,7 @@ echo '{"status": "success", "data": "..."}'
 
 ## Available Skills
 
-This repository contains 40 skills organized into several categories:
+This repository contains 60 skills organized into several categories:
 
 ### Core Skills
 - **git-release**: Create consistent releases and changelogs from merged PRs
@@ -223,6 +223,33 @@ This repository contains 40 skills organized into several categories:
 - **index**: Maintain directory organization with index files and consistency prompts
 - **opencode-config**: Configure OpenCode settings using JSON or Markdown files for project-specific or global preferences
 - **best-practice-guide**: Analyze project documentation to identify missing context, then generate and store best practice guides using web search when available
+- **workflow-orchestrator**: Build and orchestrate AI-driven development workflows (Ralph loops) that iterate until success using configurable patterns and multi-agent coordination
+
+### Development Tools
+- **dependency-upgrade**: Comprehensive dependency analysis with breaking change detection and impact analysis
+- **code-migration**: Framework/library migration with incremental strategies and automated tools
+
+### Performance Optimization
+- **performance-profiling**: Linux kernel-level (perf, eBPF, ftrace) and application-level profiling
+
+### Security & Compliance
+- **security-scan**: Comprehensive security scanning across applications, infrastructure, and dependencies with LLM-based analysis
+
+### Documentation
+- **api-documentation**: Generate comprehensive API documentation for REST/HTTP, gRPC, GraphQL, and RPC APIs
+
+### Cloud Management
+- **cloud-cost-optimization**: Analyze and optimize cloud costs across multiple cloud providers (AWS, Azure, GCP)
+
+### Data Management
+- **data-validation**: Validate data quality, types, schemas, and consistency across systems
+
+### Database Optimization
+- **database-optimization**: Optimize database performance, schema design, indexing, and query performance across different database systems
+
+### Operations
+- **accessibility-audit**: Comprehensive accessibility auditing including WCAG compliance, legal requirements mapping, and user testing with disabilities
+- **incident-response**: Manage incidents and conduct post-mortem analysis to improve system reliability and security
 
 ### Testing Ecosystem (27 skills)
 #### Basic Test Types
@@ -259,6 +286,11 @@ This repository contains 40 skills organized into several categories:
 - **testing-functional-suite**: Run comprehensive functional test suite
 - **testing-nonfunctional-suite**: Run comprehensive non-functional test suite
 
+#### Gap Analysis
+- **gap-analysis**: Identify discrepancies between documentation and implementation through systematic analysis
+- **spec-gap-analysis**: Analyze gaps between specifications (OpenAPI, Protobuf, GraphQL) and actual implementation
+- **test-gap-analysis**: Analyze gaps between requirements/features that should be tested and actual test coverage
+
 #### Skeptical Verification
 - **trust-but-verify**: Verify system claims and test results through independent validation
 - **assumption-testing**: Identify, document, and explicitly test implicit assumptions
@@ -270,6 +302,14 @@ This repository contains 40 skills organized into several categories:
 - **redteam**: Think and act like an attacker to identify security vulnerabilities
 - **white-hat**: Build defensive security capabilities and implement security by design
 - **adversarial-thinking**: Apply systematic adversarial thinking patterns including all above approaches
+
+#### Logging & Observability
+- **logging-fundamentals**: Implement proper logging practices including log levels, structured logging, context propagation, and logging best practices
+- **log-management-system**: Implement comprehensive log management including rotation, retention, forwarding, aggregation, storage, and lifecycle management
+- **log-analysis-parsing**: Parse, analyze, search, and extract insights from logs using various techniques including regex, parsing engines, and log analysis tools
+- **distributed-tracing-logs**: Implement distributed tracing using logs, including trace context propagation, span logging, correlation IDs, and OpenTelemetry integration
+- **logging-performance-optimization**: Optimize logging performance including overhead reduction, async logging, buffering, sampling, and performance impact analysis
+- **observability-logging**: Use logs as part of comprehensive observability strategy including metrics, traces, alerts, and dashboards for system understanding
 
 ## Installation
 

@@ -18,6 +18,16 @@ FORMAT="${2:-skill}"
 SEARCH_RECOMMENDED="${3:-true}"
 TIMESTAMP=$(date +%Y-%m-%dT%H:%M:%S)
 
+# Validate topic input to prevent directory traversal
+if [[ "$TOPIC" =~ \.\.|/ ]]; then
+    echo "Error: Topic cannot contain '..' or '/' characters" >&2
+    exit 1
+fi
+if [[ ! "$TOPIC" =~ ^[a-zA-Z0-9_-]+$ ]]; then
+    echo "Error: Topic must contain only alphanumeric characters, hyphens, and underscores" >&2
+    exit 1
+fi
+
 echo "Topic: $TOPIC" >&2
 echo "Format: $FORMAT" >&2
 echo "Search recommended: $SEARCH_RECOMMENDED" >&2
